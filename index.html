@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <div class="profile-image">
+                <img src="images/sahan.jpg.jpg" alt="Profile Picture"> 
+            </div>
+            <h1>Hello, I'm <span class="highlight"> Sahansil Humagain </span></h1>
+            <p class="typewriter">Bachelor of Information Management Student| Web Developer | AI Enthusiast</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="https://github.com/settings/profile" target="_blank" class="btn secondary">GitHub Profile</a>
+            </div>
+            <div class="tech-stack">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+                <i class="fab fa-react" title="React"></i>
+                <i class="fab fa-python" title="Python"></i>
+                <i class="fab fa-java" title="Java"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2 data-aos="fade-up">Education</h2>
+        <div class="timeline" data-aos="fade-up">
+            <div class="timeline-item">
+                <div class="date">2022 - Present</div>
+                <div class="content">
+                    <h3>Bachelor Of Information Management</h3>
+                    <p>TribhuvanUniversity</p>
+                    <ul>
+                        <li>Major in Artificial Intelligence</li>
+                        <li>GPA: 3.8/4.0</li>
+                        <li>Dean's List: 2022, 2023</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="date">2021 - 2022</div>
+                <div class="content">
+                    <h3>Web Development Bootcamp</h3>
+                    <p>Tech Academy</p>
+                    <ul>
+                        <li>Full-stack web development</li>
+                        <li>MERN Stack specialization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-up">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category" data-aos="fade-up">
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category" data-aos="fade-up">
+                <h3>Web Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>React.js</span>
+                        <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MongoDB</span>
+                        <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category" data-aos="fade-up">
+                <h3>Tools & Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>Git & GitHub</span>
+                        <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Docker</span>
+                        <div class="progress-bar"><div class="progress" style="width: 65%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>AWS</span>
+                        <div class="progress-bar"><div class="progress" style="width: 60%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 data-aos="fade-up">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&q=80" alt="AI Project">
+                <div class="project-content">
+                    <h3>AI Image Recognition System</h3>
+                    <p>Deep learning model for real-time object detection using TensorFlow and OpenCV.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>OpenCV</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80" alt="Web App">
+                <div class="project-content">
+                    <h3>Student Management System</h3>
+                    <p>Full-stack web application for managing student records and attendance.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80" alt="Cybersecurity">
+                <div class="project-content">
+                    <h3>Network Security Tool</h3>
+                    <p>Cybersecurity tool for network monitoring and threat detection.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Wireshark</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <h2 data-aos="fade-up">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card" data-aos="fade-up">
+                <i class="fas fa-certificate"></i>
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>Amazon Web Services</p>
+                <span class="date">2024</span>
+            </div>
+            <div class="cert-card" data-aos="fade-up">
+                <i class="fas fa-certificate"></i>
+                <h3>Python Professional Certificate</h3>
+                <p>Microsoft</p>
+                <span class="date">2023</span>
+            </div>
+            <div class="cert-card" data-aos="fade-up">
+                <i class="fas fa-certificate"></i>
+                <h3>Full Stack Development</h3>
+                <p>freeCodeCamp</p>
+                <span class="date">2023</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form" data-aos="fade-up">
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" required></textarea>
+                    <i class="fas fa-message"></i>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="contact-info" data-aos="fade-up">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>sahansilhumagain@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+977 9765419310</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-location-dot"></i>
+                    <p> Panauti-7 Buspark</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@Naturevlogs09"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/login/"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Alex Thompson. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
